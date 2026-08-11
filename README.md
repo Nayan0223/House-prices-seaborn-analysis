@@ -76,15 +76,6 @@ jupyter notebook sea2_fixed.ipynb
 
 ---
 
-## 🐛 Bugs Fixed
-
-| Bug | Fix Applied |
-|-----|-------------|
-| `sns.distplot()` removed in seaborn 0.12+ | Replaced with `sns.histplot()` |
-| `ci=None` deprecated in `relplot` | Replaced with `errorbar=None` |
-| `palette` warning without `hue` | Replaced with `color=` |
-| Duplicate imports throughout | Cleaned to single imports at top |
-| Missing plot titles | Added descriptive titles to all plots |
 
 ---
 
